@@ -58,13 +58,13 @@ Um sistema desenvolvido em **Python** para **detecção em tempo real de objetos
 
 ### 2 Clone o repositório
 ```bash
-git clone <url-do-repositorio>
-cd <pasta-do-projeto>
+git clone https://github.com/tutukkj/Projeto_Pilhas.git
+
 ```
 
 ### 2 Instale as dependências
 ```
-pip install opencv-python ultralytics pyserial
+pip install -r requirements.txt
 ```
 
 ### 3 Conecte o Arduino
@@ -75,13 +75,13 @@ pip install opencv-python ultralytics pyserial
 arduino = serial.Serial("COM4", 9600, timeout=1)
 ```
 
-📝 Integração com o Arduino
+### 📝 Integração com o Arduino
 
 * O Arduino recebe a contagem de objetos detectados via porta serial a cada 5 segundos.
 
 * Esse valor pode ser usado para acionar LEDs, buzzer ou outros periféricos conforme necessário.
 
 
-✨ Autor
+### ✨ Autor
 
 Desenvolvido por Arthur Nunes para aplicações de automação e visão computacional integrada a hardware.
