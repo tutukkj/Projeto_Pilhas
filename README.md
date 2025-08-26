@@ -47,9 +47,12 @@ Um sistema desenvolvido em **Python** para **detecção em tempo real de objetos
 
 ## 📂 Estrutura do Projeto
 
-├── app.py # Script principal do sistema
+├── app.py # Script principal do sistema]
+
 ├── bestn.pt # Modelo YOLO treinado
+
 ├── bestm.pt # Modelo YOLO alternativo (Mais pesado)
+
 ├── README.md # Documentação
 
 ---
@@ -74,14 +77,14 @@ pip install -r requirements.txt
 ```
 arduino = serial.Serial("COM4", 9600, timeout=1)
 ```
-
+---
 ### 📝 Integração com o Arduino
 
 * O Arduino recebe a contagem de objetos detectados via porta serial a cada 5 segundos.
 
 * Esse valor pode ser usado para acionar LEDs, buzzer ou outros periféricos conforme necessário.
 
-
+---
 ### ✨ Autor
 
 Desenvolvido por Arthur Nunes para aplicações de automação e visão computacional integrada a hardware.
