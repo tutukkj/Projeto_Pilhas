@@ -1,4 +1,4 @@
-# 🤖 Sistema de Detecção de Objetos com YOLO e Integração ao Arduino
+# 🤖 Sistema de Detecção de Pilhas com YOLO e Integração ao Arduino
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
