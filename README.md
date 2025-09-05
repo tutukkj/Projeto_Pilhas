@@ -20,13 +20,6 @@ Um sistema desenvolvido em **Python** para **detecção em tempo real de objetos
 
 ---
 
-## 📸 Demonstração / Prints
-
-<!-- Adicione capturas de tela ou GIFs do sistema rodando -->
-![Detecção em tempo real](link-para-screenshot1.png)
-
----
-
 ## 🚀 Funcionalidades
 
 1. **Detecção em tempo real**  
