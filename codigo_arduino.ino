@@ -15,7 +15,7 @@ void setup() {
 void loop() {
   if (Serial.available() > 0) {
     String texto = Serial.readStringUntil('\n');
-    texto.trim(); // Remove espaços e quebras extras
+    texto.trim();
 
     if (texto.length() > 0 && texto != ultimoTexto) {
       lcd.clear();
