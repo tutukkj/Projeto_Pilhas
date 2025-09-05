@@ -45,17 +45,6 @@ Um sistema desenvolvido em **Python** para **detecção em tempo real de objetos
 
 ---
 
-## 📂 Estrutura do Projeto
-
-├── app.py # Script principal do sistema]
-
-├── bestn.pt # Modelo YOLO treinado
-
-├── bestm.pt # Modelo YOLO alternativo (Mais pesado)
-
-├── README.md # Documentação
-
----
 
 ## ⚙️ Como Rodar o Sistema
 
